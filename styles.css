@@ -1,0 +1,125 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    margin: 47px 0px 178px 42px;
+}
+
+.link-header {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    color: #17233D;
+    margin-right: 36px;
+    cursor: pointer;
+}
+
+.button-header {
+    background: #6FBF44;
+    border-radius: 6px;
+    border: none;
+    width: 124px;
+    height: 51px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.img-main {
+    width: 595.18px;
+    height: 500px;
+    margin-left: 182.18px;
+    display: inline-block;
+}
+
+section {
+    display: inline-block;
+    margin-left: 84.82px;
+    width: 493px;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 82px;
+    color: #161A49;
+}
+
+p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    color: #4B505A;
+    margin-top: 47px;
+    margin-bottom: 55px;
+}
+
+.link-section {
+    width: 112px;
+    height: 27px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #6FBF44;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 900px) {
+    .link-header {
+        display: none;
+    }
+
+    .button-header {
+        Width: 91px;
+        height: 31px;
+        font-size: 12px;
+        line-height: 18px;
+        position: absolute;
+        bottom: 94%;
+        right: 4%;
+    }
+
+    section {
+        display: inline;
+    }
+
+    h1 {
+        font-size: 30px;
+        line-height: 30px;
+        text-align: center;
+        width: auto;
+    }
+
+    p {
+        font-size: 18px;
+        line-height: 33px;
+        width: auto;
+        text-align: center;
+        width: auto;
+        margin: 29px 43px 26px;
+    }
+
+    .link-section {
+        font-size: 18px;
+        line-height: 27px;
+        width: auto;
+        text-align: center;
+        display: block;
+    }
+
+    .img-main {
+        margin: 0;
+        position:  absolute;
+        left: 5%;
+        top: 60%;
+        width: 90%;
+        height: auto;
+        display: block;
+    }
+}
